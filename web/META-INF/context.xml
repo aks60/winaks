@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/winaks"/>
+<Context path="/winaks">
+    <Resource        
+        name="jdbc/winaks"
+        auth="Container"
+        type="javax.sql.DataSource"
+        driverClassName="org.firebirdsql.jdbc.FBDriver"
+        factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+        url="jdbc:firebirdsql:localhost/3050:C:/Okna/fbase/BIMAX.FDB"
+        columnLabelForName="true"
+        defaultAutoCommit="false"
+        maxActive="100"
+        maxIdle="3"
+        maxWait="10000"
+        username="sysdba" 
+        password="masterkey"        
+    />
+</Context>
