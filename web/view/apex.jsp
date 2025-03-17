@@ -22,19 +22,18 @@
             body {
                 margin: 0;
                 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-                font-size: 1rem;
+                font-size: 1.2rem;
                 font-weight: 400;
                 line-height: 1.5;
                 color: #212529;
                 text-align: left;
                 background-color: #fff;
-                /*max-height: 1800px;*/
             }
 
             /* контейнер */
             .container {
                 width: 100%;
-                max-width: 1800px;                
+                max-width: 1200px;
                 padding-right: 15px;
                 padding-left: 15px;
                 margin-left: auto;
@@ -85,10 +84,6 @@
                 }
             }
 
-            .main {
-                height: 800px;
-            }
-            
             .header {
                 background-color: #e0e0e0;
             }
@@ -102,47 +97,52 @@
             }
         </style>
     </head>
-
     <body>
-
         <header class="container header">
             <div style="font-size: 20px; text-align:center; padding-top: 20px; padding-bottom: 20px; font-weight: bold;">
-                [Шапка страницы]</div>
+                SA.OKNA</div>
         </header>
         <main class="container main">
             <div class="row">
                 <article class="col col__article">
                     <div
-                        style="font-size: 20px; text-align:center; padding-top: 30px; padding-bottom: 30px; font-weight: bold;">
-                        [Основная часть]
+                        style="font-size: 20px; text-align:center; padding-top: 30px; padding-bottom: 30px; font-weight: bold;"> 
+                        Программа для расчёта пластиковых окон и дверей
                     </div>
-                    <h1>Заголовок 1 уровня</h1>
-                    <p>Lorem ipsum dolor sit amet. Qui ad minima veniam quis. Sapiente delectus, ut enim ipsam. Iusto odio
-                        dignissimos ducimus, qui in ea commodi autem. Adipisci velit, sed ut et voluptates repudiandae. Iste
-                        natus error sit voluptatem. Soluta nobis est eligendi optio, cumque nihil molestiae. Sequi nesciunt,
-                        neque porro quisquam est, omnis voluptas nulla. In ea voluptate velit esse quam. Eveniet, ut
-                        perspiciatis, unde omnis iste natus error sit voluptatem.</p>
+                    <h1>Назначение программы</h1>
+                    <p>
+                        Полнофункциональное приложение для автоматизации бизнес-процессов 
+                        оконного предприятия на всех этапах изготовления окна. Управление заказами, 
+                        расчет цен, расчет материалов для производства, оформление документов для 
+                        заказчика и для цеха. В ней можно проектировать эскизы, составлять сметы, 
+                        выставлять счета и оформлять договоры, выгружать отчеты.</p>
+                    <h2>Установка программы.</h2>
+                    <p>Программа написана на языке java и может работать на всех операционных системах.
+                        Поэтому перед установкой необходимо предварительно установить программу Java SE-20.0 
+                        версии или позже, если она у вас ещё не установлена на ваш компьютер.
+                        Установщик программы состоит из 3х файлов, которые надо располохить в папке из 
+                        которой вы будите запускать программу.
+                        <br> Например:&nbsp;&nbsp;Disc С:\SA-OKNA\           
+                        <br>&nbsp;&nbsp;* getdown.jar- для установки, запуска и автообновлений. Так что вам не надо будет делать обновление.
+                        <br>&nbsp;&nbsp;* getdown.txt- скрипт обновления  вкл. список файлов для обновления. 
+                        <br>&nbsp;&nbsp;* d000.ico - иконка ярлыка на рабочем столе (необязательно)
+                        <br>Для запуска программы создайте ярлык на рабочем столе со ссылкой на getdown.jar.
+                        <br>Запустите getdown.jar, программа скачает последнюю версию с сервера и запустится. Введите пароль 
+                        masterkey - это пароль по умолчаниею баз данных firebird которые находится на выделенном сервере. 
+                        В дальнейшем пароль необходимо изменить. 
+                        <br>Путь к базе жестко прописан в коде программы и изменить его нельзя! 
+                        <br>Внимание, программа работает только при наличии сети.</p>
                     <h2>Заголовок 2 уровня</h2>
-                    <p>Lorem ipsum dolor sit amet. Qui ad minima veniam quis. Sapiente delectus, ut enim ipsam. Iusto odio
-                        dignissimos ducimus, qui in ea commodi autem. Adipisci velit, sed ut et voluptates repudiandae. Iste
-                        natus error sit voluptatem. Soluta nobis est eligendi optio, cumque nihil molestiae. Sequi nesciunt,
-                        neque porro quisquam est, omnis voluptas nulla. In ea voluptate velit esse quam. Eveniet, ut
-                        perspiciatis, unde omnis iste natus error sit voluptatem.</p>
-                    <p>Lorem ipsum dolor sit amet. Qui ad minima veniam quis. Sapiente delectus, ut enim ipsam. Iusto odio
-                        dignissimos ducimus, qui in ea commodi autem. Adipisci velit, sed ut et voluptates repudiandae. Iste
-                        natus error sit voluptatem. Soluta nobis est eligendi optio, cumque nihil molestiae. Sequi nesciunt,
-                        neque porro quisquam est, omnis voluptas nulla. In ea voluptate velit esse quam. Eveniet, ut
-                        perspiciatis, unde omnis iste natus error sit voluptatem.</p>
-                    <h2>Заголовок 2 уровня</h2>
-                    <p>Lorem ipsum dolor sit amet. Qui ad minima veniam quis. Sapiente delectus, ut enim ipsam. Iusto odio
-                        dignissimos ducimus, qui in ea commodi autem. Adipisci velit, sed ut et voluptates repudiandae. Iste
-                        natus error sit voluptatem. Soluta nobis est eligendi optio, cumque nihil molestiae. Sequi nesciunt,
-                        neque porro quisquam est, omnis voluptas nulla. In ea voluptate velit esse quam. Eveniet, ut
-                        perspiciatis, unde omnis iste natus error sit voluptatem.</p>
+                    <p>Бла/бла/бла.</p>
                 </article>
                 <aside class="col col__aside"
                        style="font-size: 20px; text-align:center; padding-top: 20px; padding-bottom: 20px; font-weight: bold; min-height: 200px;">
-                    [Боковая область]
+                    <br>ИП Аксёнов С.А.
+                    <br>Телефон: +7 903 124 7833
+                    <br>Email: gonved60@gmail.com
+                    <br><br>    
+                    <!--<p><a href="http://localhost:8080/deploy/deploy.zip">Начать установку</a></p>-->
+                    <a href='http://dir.iicavers.ru:8080/appdist/kladr/KLADR.FDB' style='color: blue;'> Скачать klard.fdb</a>
                 </aside>
             </div>
         </main>
@@ -150,7 +150,5 @@
                 style="background: #e0e0e0; font-size: 20px; text-align:center; padding-top: 20px; padding-bottom: 20px; font-weight: bold;">
             [Футер]
         </footer>
-
     </body>
-
 </html>
