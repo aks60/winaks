@@ -22,7 +22,7 @@
             body {
                 margin: 0;
                 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-                font-size: 1.2rem;
+                font-size: 0.9rem;
                 font-weight: 400;
                 line-height: 1.5;
                 color: #212529;
@@ -71,16 +71,16 @@
 
                 /* 2/3 от ширины контейнера */
                 .col__article {
-                    -ms-flex: 0 0 66.666667%;
-                    flex: 0 0 66.666667%;
-                    max-width: 66.666667%;
+                    -ms-flex: 0 0 76.566667%;
+                    flex: 0 0 76.566667%;
+                    max-width: 76.566667%;
                 }
 
                 /* 1/3 от ширины контейнера */
                 .col__aside {
-                    -ms-flex: 0 0 33.333333%;
-                    flex: 0 0 33.333333%;
-                    max-width: 33.333333%;
+                    -ms-flex: 0 0 23.433333%;
+                    flex: 0 0 23.433333%;
+                    max-width: 23.433333%;
                 }
             }
 
@@ -100,27 +100,26 @@
     <body>
         <header class="container header">
             <div style="font-size: 20px; text-align:center; padding-top: 20px; padding-bottom: 20px; font-weight: bold;">
-                SA.OKNA</div>
+                Программа для расчёта пластиковых окон и дверей</div>
         </header>
         <main class="container main">
             <div class="row">
                 <article class="col col__article">
-                    <div
-                        style="font-size: 20px; text-align:center; padding-top: 30px; padding-bottom: 30px; font-weight: bold;"> 
-                        Программа для расчёта пластиковых окон и дверей
-                    </div>
-                    <h1>Назначение программы</h1>
+                    <h1>Назначение программы SA-OKNA.</h1>
                     <p>
                         Полнофункциональное приложение для автоматизации бизнес-процессов 
                         оконного предприятия на всех этапах изготовления окна. Управление заказами, 
                         расчет цен, расчет материалов для производства, оформление документов для 
                         заказчика и для цеха. В ней можно проектировать эскизы, составлять сметы, 
                         выставлять счета и оформлять договоры, выгружать отчеты.</p>
-                    <h2>Установка программы.</h2>
+                    
+                    <h2>Установка программы JAVA.</h2>
                     <p>Программа написана на языке java и может работать на всех операционных системах.
                         Поэтому перед установкой необходимо предварительно установить программу Java SE-20.0 
-                        версии или позже, если она у вас ещё не установлена на ваш компьютер.
-                        Установщик программы состоит из 3х файлов, которые надо располохить в папке из 
+                        версии и выше, если она у вас ещё не установлена на ваш компьютер.</p>
+                    
+                    <h2>Установка программы SA-OKNA.</h2>
+                    <p> Установщик программы состоит из 3х файлов, которые надо располохить в папке из 
                         которой вы будите запускать программу.
                         <br> Например:&nbsp;&nbsp;Disc С:\SA-OKNA\           
                         <br>&nbsp;&nbsp;* getdown.jar- для установки, запуска и автообновлений. Так что вам не надо будет делать обновление.
@@ -132,23 +131,22 @@
                         В дальнейшем пароль необходимо изменить. 
                         <br>Путь к базе жестко прописан в коде программы и изменить его нельзя! 
                         <br>Внимание, программа работает только при наличии сети.</p>
-                    <h2>Заголовок 2 уровня</h2>
-                    <p>Бла/бла/бла.</p>
                 </article>
                 <aside class="col col__aside"
-                       style="font-size: 20px; text-align:center; padding-top: 20px; padding-bottom: 20px; font-weight: bold; min-height: 200px;">
+                       style="font-size: 15px; text-align:center; padding-top: 15px; padding-bottom: 15px; font-weight: bold; min-height: 200px;">
                     <br>ИП Аксёнов С.А.
                     <br>Телефон: +7 903 124 7833
                     <br>Email: gonved60@gmail.com
                     <br><br>    
-                    <!--<p><a href="http://localhost:8080/deploy/deploy.zip">Начать установку</a></p>-->
-                    <a href='http://dir.iicavers.ru:8080/appdist/kladr/KLADR.FDB' style='color: blue;'> Скачать klard.fdb</a>
+                    <p><a href="http://localhost:8080/deploy/install-wingeo.zip">Начать установку <br>JAVA</a></p>
+                    <br>
+                    <p><a href="http://31.172.66.46:8080/deploy/install-wingeo.zip">Начать установку <br>SA-OKNA</a></p>
                 </aside>
             </div>
         </main>
         <footer class="container footer"
                 style="background: #e0e0e0; font-size: 20px; text-align:center; padding-top: 20px; padding-bottom: 20px; font-weight: bold;">
-            [Футер]
+            ...
         </footer>
     </body>
 </html>
