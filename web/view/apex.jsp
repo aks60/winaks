@@ -120,7 +120,7 @@
                         кликнув по ссылке <span style="color: blue"><Установка программы JAVA></span>. Запустите установщик и следуйте инструкциям 
                         установки.</p>
 
-                    <h2>Установка программы SA-OKNA.</h2>
+                    <h2>Установка программы SA-OKNA (демо версия).</h2>
                     <p> &nbsp;Скачайте установщик программы кликнув по ссылке <span style="color: blue"><Установка программы SA-OKNA></span>
                         Установщик программы состоит из 3х файлов, которые надо располохить в папке из 
                         которой вы будите запускать программу.
@@ -142,8 +142,8 @@
                     <br>Email: gonved60@gmail.com
                     <br><br>    
                     <p><a href="http://xxxxxxxxxxxxxxxxx">Смотреть видио</a></p>
-                    <p><a href="http://31.172.66.46:8080/deploy/jdk-21_windows-x64_bin.msi">Установка программы<br>JAVA</a></p>
-                    <p><a href="http://31.172.66.46:8080/deploy/00/deploy.zip">Установка программы<br>SA-OKNA</a></p>
+                    <p><a href="http://sa-okna.ru:8080/deploy/jdk-21_windows-x64_bin.msi">Установка программы<br>JAVA</a></p>
+                    <p><a href="http://sa-okna.ru:8080/deploy/00/deploy.zip">Установка программы<br>SA-OKNA</a></p>
                 </aside>
             </div>
         </main>
