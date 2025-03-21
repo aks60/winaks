@@ -143,7 +143,7 @@
                     <br><br>    
                     <p><a href="http://xxxxxxxxxxxxxxxxx">Смотреть видио</a></p>
                     <p><a href="http://31.172.66.46:8080/deploy/jdk-21_windows-x64_bin.msi">Установка программы<br>JAVA</a></p>
-                    <p><a href="http://31.172.66.46:8080/deploy/install-wingeo.zip">Установка программы<br>SA-OKNA</a></p>
+                    <p><a href="http://31.172.66.46:8080/deploy/00/deploy.zip">Установка программы<br>SA-OKNA</a></p>
                 </aside>
             </div>
         </main>
