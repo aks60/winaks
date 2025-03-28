@@ -138,9 +138,9 @@
                     <br><br>    
                     <p><a href="http://xxчxxxxxxxxxxxxxxx">Смотреть видио<br>YouTube</a></p>
                     <br>
-                    <p><a href="http://sa-okna.ru:8080/deploy/00/WinGeo-2.0.msi">Установка демо программы<br>SA-OKNA</a></p>
+                    <p><a href="http://sa-okna.ru/deploy/00/WinGeo-2.0.msi">Установка демо программы<br>SA-OKNA</a></p>
                     <br>
-                    <p><a href="http://sa-okna.ru:8080/deploy/jdk-21_windows-x64_bin.msi">Установка программы<br>JAVA</a></p>
+                    <p><a href="http://sa-okna.ru/deploy/jdk-21_windows-x64_bin.msi">Установка программы<br>JAVA</a></p>
                 </aside>
             </div>
         </main>
