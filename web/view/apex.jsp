@@ -136,9 +136,9 @@
                     <br>Телефон: +7 903 124 7833
                     <br>Email: gonved60@gmail.com
                     <br><br>    
-                    <p><a href="http://xxчxxxxxxxxxxxxxxx">Смотреть видио<br>YouTube</a></p>
+                    <p><a href="http://sa-okna.ru/deploy/00/getdown.zip">Смотреть видио<br>YouTube</a></p>
                     <br>
-                    <p><a href="http://sa-okna.ru/deploy/00/WinGeo-2.0.msi">Установка демо программы<br>SA-OKNA</a></p>
+                    <p><a href="http://sa-okna.ru/deploy/00/WinGeo.msi">Установка демо программы<br>SA-OKNA</a></p>
                     <br>
                     <p><a href="http://sa-okna.ru/deploy/jdk-21_windows-x64_bin.msi">Установка программы<br>JAVA</a></p>
                 </aside>
