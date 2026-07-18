@@ -5,7 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>ROOT JSP</title>
-        <link rel="icon" href="img/favicon.png" sizes="any">
+        <link rel="icon" href="lib-img/favicon.png" sizes="any">
         <style>
             *,
             *::before,

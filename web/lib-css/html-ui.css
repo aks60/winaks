@@ -1,0 +1,95 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+#north {
+    background-repeat:repeat-x;
+    background-image:url('../lib-img/shadow4.jpg');
+    width: calc(100% - 2px);
+    height: 28px;
+}
+
+#context {
+    border: 0 !important;
+    width: calc(100% - 2px);
+}
+
+#midl {
+    border: 0 !important;
+}
+
+#south {
+    background-repeat:repeat-x;
+    background-image:url('../lib-img/shadow2.jpg');
+    width: calc(100% - 2px);
+    height: 18px;
+}
+
+#north,
+#west, #west1, #west2, west3,
+#centr,
+#east, #east1, #east2, #east3,
+#south {
+    border: 1px solid #ccc;
+}
+
+.ui-dialog-buttonpane {
+    background: #efeffb !important;
+}
+
+.ui-button-text-only .ui-button-text {
+    padding: .2em .2em;
+}
+
+#north button.ui-widget {
+    height: 22px;
+    margin-top: 3px;
+    margin-left: 8px;
+    padding: 2px;
+    width: 94px;
+    border-radius: 0;
+}
+
+/* Установить высоту столбца */
+.ui-jqgrid .ui-jqgrid-htable th {
+    height: 16px  !important;
+}
+
+/* Установить высоту строки */
+.ui-jqgrid tr.jqgrow td {
+    height: 18px !important;
+    padding: 0 2px !important; /* Регулировка отступов, если нужно */
+    vertical-align: middle; /* Вертикальное выравнивание */
+}
+
+.ui-pg-input, input.ui-widget, .ui-widget select, .ui-dialog,
+select.ui-widget, textarea.ui-widget, button.ui-widget {
+    font-size: 12px;
+}
+
+p.pantitle {
+    margin-top: 6px;
+    margin-bottom: -3px;
+    margin-left: 3px;
+}
+
+p.field, input.field, textarea.field {
+    border: transparent;
+    border: 1px groove #ccc;
+    height: 14px;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-bottom: 0px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+p.field {
+    background-color: #dfeffc;
+    padding-top: 1px;
+}
+
