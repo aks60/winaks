@@ -4,37 +4,34 @@
     <head>
         <title>Выпадающее меню на CSS3</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script>
+            $(document).ready(function () {
+                // 1. Клик по пунктам меню
+                $('.nav-menu .has-children > a').on('click', function (e) {
+                    e.preventDefault(); // Отменяем переход по ссылке (если нужно переходить, удалите эту строку)
 
+                    var $parentLi = $(this).parent();
+                    var $submenu = $parentLi.children('ul');
+
+                    // Закрываем другие подменю на этом же уровне
+                    $parentLi.siblings().find('ul').removeClass('active');
+                    $parentLi.siblings().removeClass('open');
+
+                    // Переключаем текущее подменю
+                    $submenu.toggleClass('active');
+                    $parentLi.toggleClass('open');
+                });
+
+                // 2. Закрытие меню при клике в любое место на сайте
+                $(document).on('click', function (e) {
+                    if (!$(e.target).closest('.nav-menu').length) {
+                        $('.nav-menu ul ul').removeClass('active');
+                        $('.nav-menu li').removeClass('open');
+                    }
+                });
+            });
+        </script> 
     </head>
-
-    <script>
-        $(document).ready(function () {
-            // 1. Клик по пунктам меню
-            $('.nav-menu .has-children > a').on('click', function (e) {
-                e.preventDefault(); // Отменяем переход по ссылке (если нужно переходить, удалите эту строку)
-
-                var $parentLi = $(this).parent();
-                var $submenu = $parentLi.children('ul');
-
-                // Закрываем другие подменю на этом же уровне
-                $parentLi.siblings().find('ul').removeClass('active');
-                $parentLi.siblings().removeClass('open');
-
-                // Переключаем текущее подменю
-                $submenu.toggleClass('active');
-                $parentLi.toggleClass('open');
-            });
-
-            // 2. Закрытие меню при клике в любое место на сайте
-            $(document).on('click', function (e) {
-                if (!$(e.target).closest('.nav-menu').length) {
-                    $('.nav-menu ul ul').removeClass('active');
-                    $('.nav-menu li').removeClass('open');
-                }
-            });
-        });
-    </script> 
-
     <body>
         <nav class="main-nav">
             <ul class="menu-level-1">
