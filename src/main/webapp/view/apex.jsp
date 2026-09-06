@@ -13,7 +13,7 @@
                 box-sizing: border-box;
             }
 
-            html {
+/*            html {
                 font-family: sans-serif;
                 line-height: 1.15;
                 -webkit-text-size-adjust: 100%;
@@ -29,7 +29,7 @@
                 color: #212529;
                 text-align: left;
                 background-color: #fff;
-            }
+            }*/
 
             /* контейнер */
             .container {
