@@ -20,6 +20,7 @@
         <script>
             $(document).ready(function () {
                 $("#menu-main").load('view/menu.jsp');
+                $("body-jsp").load('view/home.jsp');
             });
         </script> 
         <style>
