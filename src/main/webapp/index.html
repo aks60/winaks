@@ -3,8 +3,32 @@
     <head>
         <title>Start Page</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+            .container {
+                display: flex;          /* Включает flexbox-модель */
+                justify-content: center; /* Выравнивает элементы по центру по горизонтали */
+                gap: 15px;              /* Задает отступ между элементами */
+                background: #f0f0f0;
+                padding: 20px;
+            }
+
+            .item {
+                width: 60px;
+                height: 60px;
+                background: #3498db;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+            }
+        </style>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <div class="container">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+        </div>
     </body>
 </html>
