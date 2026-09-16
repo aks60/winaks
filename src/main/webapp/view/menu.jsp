@@ -49,17 +49,17 @@
                     <a href="#">Главная</a>
                     <ul class="menu-level-2">
                         <li><a onClick="$('#body-jsp').load('./view/home.jsp')">Главная-1</a></li>
-                        <li><a>Главная-2</a></li>     
+                        <li><a>Главная</a></li>     
                         <li><a class="separator"></a></li>
-                        <li><a>Главная-3</a></li>
-                        <li><a>Главная-4</a></li>
+                        <li><a>Технолог</a></li>
+                        <li><a>Менеджер</a></li>
                     </ul>
                 </li>
                 <li>
                     <a>Проекты</a>
                     <ul class="menu-level-2">
-                        <li><a>Проекты-1</a></li>
-                        <li><a>Проекты-2</a></li>
+                        <li><a onClick="window.open('https://github.com/aks60/wingeo', '_blank');">Технолог</a></li>
+                        <li><a onClick="window.open('https://github.com/aks60/winweb', '_blank');">Менеджер</a></li>
                     </ul>
                 </li>
                 <li>
