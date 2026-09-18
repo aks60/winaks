@@ -38,7 +38,7 @@
                         $('.main-nav li').removeClass('open');
                     }
                 });
-            });          
+            });
         </script> 
     </head>
     <body>
@@ -54,24 +54,10 @@
                     </ul>
                 </li>
                 <li>
-                    <a>Проекты</a>
-                    <ul class="menu-level-2">
-                        <li><a onClick="window.open('https://github.com/aks60/wingeo', '_blank');">Технолог</a></li>
-                        <li><a onClick="window.open('https://github.com/aks60/winweb', '_blank');">Менеджер</a></li>
-                    </ul>
-                </li>
-                <li>
                     <a>Видио</a>
                     <ul class="menu-level-2">
                         <li><a>Видио-1</a></li>
                         <li><a>Видио-2</a></li>  
-                    </ul>
-                </li> 
-                <li>
-                    <a>Скачать и установить</a>
-                    <ul class="menu-level-2">
-                        <li><a onClick="$('#body-jsp').load('./view/insttex.jsp')">Технолог</a></li>
-                        <li><a onClick="$('#body-jsp').load('./view/instmen.jsp')">Менеджер</a></li>  
                     </ul>
                 </li> 
                 <li>
@@ -80,7 +66,21 @@
                         <li><a onClick="$('#body-jsp').load('./view/demo.jsp')">Технолог</a></li> 
                         <li><a onClick="window.open('http://sa-okna.ru/webgeo/', '_blank');">Менеджер</a></li>                         
                     </ul>
-                </li>                
+                </li>  
+                <li>
+                    <a>Проекты</a>
+                    <ul class="menu-level-2">
+                        <li><a onClick="window.open('https://github.com/aks60/wingeo', '_blank');">Технолог</a></li>
+                        <li><a onClick="window.open('https://github.com/aks60/winweb', '_blank');">Менеджер</a></li>
+                    </ul>
+                </li>  
+                <li>
+                    <a>Скачать и установить</a>
+                    <ul class="menu-level-2">
+                        <li><a onClick="$('#body-jsp').load('./view/insttex.jsp')">Технолог</a></li>
+                        <li><a onClick="$('#body-jsp').load('./view/instmen.jsp')">Менеджер</a></li>  
+                    </ul>
+                </li>                 
                 <li>
                     <a>Контакты</a>
                     <ul class="menu-level-2">

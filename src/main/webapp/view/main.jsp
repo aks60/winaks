@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
-        <title>WINAKS</title>
+        <title>MAIN</title>
         <link rel="icon" href="lib-img/favicon.png" sizes="any">
         <link rel="stylesheet" type="text/css" media="screen" href="lib-css/jquery-ui-1.13/redmond/jquery-ui.css">                                                                                                       
         <link rel="stylesheet" type="text/css" media="screen" href="lib-css/jstree-3.3.12/themes/default/style.min.css" />
@@ -18,11 +18,16 @@
         <script type="text/javascript" src="lib-js/jqgrid-5.8.10/jquery.jqGrid.min.js"></script> 
         <script type="text/javascript" src="lib-js/jstree-3.3.12/jstree.min.js"></script>  
         <style>
-
+            body {
+                font-family: 'Arial', sans-serif; /* Шрифт по умолчанию */
+                font-size: 16px;                  /* Размер текста */
+                color: #333333;                   /* Цвет текста */
+                line-height: 1.5;                 /* Межстрочный интервал */
+                background-color: #dcedc8;
+            }
         </style>
         <script>
             $(document).ready(function () {
-                debugger;
                 $("#menu-main").load('view/menu.jsp');
                 $("#body-jsp").load('view/home.jsp');
             });
