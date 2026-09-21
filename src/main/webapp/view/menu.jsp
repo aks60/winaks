@@ -84,8 +84,7 @@
                 <li>
                     <a>Справка</a>
                     <ul class="menu-level-2">
-                        <li><a onClick="window.open('http://sa-okna.ru/winaks/help/index.htm', '_blank');">Справка</a></li>
-                        <li><a>Контакты-2</a></li>  
+                        <li><a onClick="window.open('http://sa-okna.ru/winaks/help/index.htm', '_blank');">Справка-1</a></li>
                     </ul>
                 </li>                
                 <li>
