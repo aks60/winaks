@@ -20,7 +20,7 @@
         <style>
             body {
                 font-family: 'Arial', sans-serif; /* Шрифт по умолчанию */
-                font-size: 12px;                  /* Размер текста */
+                font-size: 16px;                  /* Размер текста */
                 color: #333333;                   /* Цвет текста */
                 line-height: 1.5;                 /* Межстрочный интервал */
                 /*background-color: #4781C1;*/
