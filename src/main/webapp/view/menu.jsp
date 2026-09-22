@@ -82,9 +82,10 @@
                     </ul>
                 </li>                 
                 <li>
-                    <a>Справка</a>
+                    <a>Документы</a>
                     <ul class="menu-level-2">
-                        <li><a onClick="window.open('http://sa-okna.ru/winaks/help/index.htm', '_blank');">Справка-1</a></li>
+                        <li><a onClick="window.open('http://sa-okna.ru/winaks/help/index.htm', '_blank');">Справка html</a></li>
+                        <li><a>Справка скачать pdf</a></li>
                     </ul>
                 </li>                
                 <li>
