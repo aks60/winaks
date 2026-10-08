@@ -1,9 +1,3 @@
-<%-- 
-    Document   : demo
-    Created on : 16 сент. 2026 г., 08:46:06
-    Author     : AKS
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,12 +6,13 @@
         <title>DEMO</title>
         <style>
             .container  {
-                margin: 10px 0 0 10px;
+                display: flex;
+                margin: 0 0 0 10px;
             }
         </style>
     </head>
     <body>
-        <h3 style="text-align: center;">Установка демо версии программы SA-OKNA.</h3>
+        <h1 style="text-align: center;">Установка демо версии программы SA-OKNA.</h1>
         <div class="container">
             <p> Скачайте установщик программы кликнув по ссылке 
                 <a href="http://sa-okna.ru/deploy/00/WinGeo.msi">Установка демо программы SA-OKNA</a>
@@ -27,6 +22,9 @@
                 БД2- пассивная (только для просмотра). 
                 <br>Путь к базам жестко прописан и изменить его нельзя! 
                 <br>Программа работает только при постоянном наличии сети.</p>
+        </div>
+        <div>
+            
         </div>
     </body>
 </html>

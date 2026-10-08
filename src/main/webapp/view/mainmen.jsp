@@ -10,7 +10,7 @@
                 grid-template-columns: 400px auto;
                 grid-template-rows: auto;
                 gap: 10px;
-                margin: 10px 0 0 10px;
+                margin: 0 0 0 8px;
             }
         </style>         
     </head>
@@ -18,7 +18,11 @@
         <h1 style="text-align: center;">Менеджер (web версия)</h1>
         <div class="container">
             <div>
-                <h2>Проекты, заказы, калькуляция</h2>
+                <h3>Проекты, заказы, калькуляция</h3> 
+            </div>
+            <div>                
+            </div>
+            <div>
                 <img alt="Главное окно программы SA-OKNA" src="lib-img/okna-web1.jpg" />
             </div>   
             <div>
@@ -29,7 +33,11 @@
                     персонала и позволяет избежать большинство ошибок при вводе данных и расчёте.</p>
             </div>
             <div>
-                <h2>Изделия, конструктор</h2>
+                <h3>Изделия, конструктор</h3> 
+            </div>
+            <div>                
+            </div>            
+            <div>
                 <img alt="Главное окно программы SA-OKNA" src="lib-img/okna-web2.jpg" />
             </div>   
             <div>
@@ -40,7 +48,11 @@
                     персонала и позволяет избежать большинство ошибок при вводе данных и расчёте.</p>
             </div>
             <div>
-                <h2>Комплекты</h2>
+                <h3>Комплекты</h3>  
+            </div>
+            <div>                
+            </div>            
+            <div>
                 <img alt="Главное окно программы SA-OKNA" src="lib-img/okna-web3.jpg" />
             </div>   
             <div>
@@ -51,7 +63,11 @@
                     персонала и позволяет избежать большинство ошибок при вводе данных и расчёте.</p>
             </div>
             <div>
-                <h2>Заказчики</h2>
+                <h3>Заказчики</h3> 
+            </div>
+            <div>                
+            </div>            
+            <div>
                 <img alt="Главное окно программы SA-OKNA" src="lib-img/okna-web4.jpg" />
             </div>   
             <div>
