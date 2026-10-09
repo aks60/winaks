@@ -24,7 +24,13 @@
                 <br>Программа работает только при постоянном наличии сети.</p>
         </div>
         <div>
-            
+            <img alt="Установка программы SA-OKNA" src="lib-img/okna-app5.jpg" /> 
         </div>
+        <div>
+            <img alt="Установка программы SA-OKNA" src="lib-img/okna-app6.jpg" /> 
+        </div>
+        <div>
+            <img alt="Установка программы SA-OKNA" src="lib-img/okna-app7.jpg" /> 
+        </div>        
     </body>
 </html>
