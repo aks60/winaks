@@ -63,7 +63,7 @@
                 <li>
                     <a>Установить демо</a>
                     <ul class="menu-level-2">
-                        <li><a onClick="$('#body-jsp').load('./view/demo.jsp')">Технолог</a></li> 
+                        <li><a onClick="$('#body-jsp').load('./view/demotex.jsp')">Технолог</a></li> 
                         <li><a onClick="window.open('http://sa-okna.ru/webgeo/', '_blank');">Менеджер</a></li>                         
                     </ul>
                 </li>  
