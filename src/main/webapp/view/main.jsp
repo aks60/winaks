@@ -30,7 +30,7 @@
         <script>
             $(document).ready(function () {
                 $("#menu-main").load('view/menu.jsp');
-                $("#body-jsp").load('view/home.jsp');
+                $("#body-jsp").load('view/main-home.jsp');
             });
         </script>         
     </head>

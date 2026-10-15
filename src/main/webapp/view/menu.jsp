@@ -48,9 +48,9 @@
                 <li>
                     <a href="#">Главная</a>
                     <ul class="menu-level-2">
-                        <li><a onClick="$('#body-jsp').load('./view/home.jsp')">Главная</a></li>  
-                        <li><a onClick="$('#body-jsp').load('./view/maintex.jsp')">Технолог</a></li>
-                        <li><a onClick="$('#body-jsp').load('./view/mainmen.jsp')">Менеджер</a></li>
+                        <li><a onClick="$('#body-jsp').load('./view/main-home.jsp')">Главная</a></li>  
+                        <li><a onClick="$('#body-jsp').load('./view/main-tex.jsp')">Технолог</a></li>
+                        <li><a onClick="$('#body-jsp').load('./view/main-men.jsp')">Менеджер</a></li>
                     </ul>
                 </li>
                 <li>
@@ -63,7 +63,7 @@
                 <li>
                     <a>Установить демо</a>
                     <ul class="menu-level-2">
-                        <li><a onClick="$('#body-jsp').load('./view/demotex.jsp')">Технолог</a></li> 
+                        <li><a onClick="$('#body-jsp').load('./view/demo-tex.jsp')">Технолог</a></li> 
                         <li><a onClick="window.open('http://sa-okna.ru/webgeo/', '_blank');">Менеджер</a></li>                         
                     </ul>
                 </li>  
@@ -77,8 +77,8 @@
                 <li>
                     <a>Скачать и установить</a>
                     <ul class="menu-level-2">
-                        <li><a onClick="$('#body-jsp').load('./view/insttex.jsp')">Технолог</a></li>
-                        <li><a onClick="$('#body-jsp').load('./view/instmen.jsp')">Менеджер</a></li>  
+                        <li><a onClick="$('#body-jsp').load('./view/install-tex.jsp')">Технолог</a></li>
+                        <li><a onClick="$('#body-jsp').load('./view/install-men.jsp')">Менеджер</a></li>  
                     </ul>
                 </li>                 
                 <li>
