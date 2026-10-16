@@ -6,8 +6,10 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script>
             $(document).ready(function () {
-
-//                $('.main-nav li').eq(1).after('<li class="separator"></li>');
+                
+                document.getElementById('m00').addEventListener('click', (e) => {
+                    $('#body-jsp').load('view/contact.jsp');
+                });
 
                 //1.Клик по пунктам меню
                 $('.main-nav a').on('click', function (e) {
@@ -70,8 +72,8 @@
                 <li>
                     <a>Проекты</a>
                     <ul class="menu-level-2">
-                        <li><a onClick="window.open('https://github.com/aks60/wingeo', '_blank');">Проект wingeo(технолог)</a></li>
-                        <li><a onClick="window.open('https://github.com/aks60/winweb', '_blank');">Проект winweb(vенеджер)</a></li>
+                        <li><a onClick="window.open('https://github.com/aks60/wingeo', '_blank');">wingeo(технолог)</a></li>
+                        <li><a onClick="window.open('https://github.com/aks60/winweb', '_blank');">winweb(менеджер)</a></li>
                     </ul>
                 </li>  
                 <li>
@@ -89,11 +91,7 @@
                     </ul>
                 </li>                
                 <li>
-                    <a>Контакты</a>
-                    <ul class="menu-level-2">
-                        <li><a>Контакты-1</a></li>
-                        <li><a>Контакты-2</a></li>  
-                    </ul>
+                    <a id="m00">Контакты</a>
                 </li>                
             </ul>
         </nav>
