@@ -70,8 +70,8 @@
                 <li>
                     <a>Проекты</a>
                     <ul class="menu-level-2">
-                        <li><a onClick="window.open('https://github.com/aks60/wingeo', '_blank');">Технолог</a></li>
-                        <li><a onClick="window.open('https://github.com/aks60/winweb', '_blank');">Менеджер</a></li>
+                        <li><a onClick="window.open('https://github.com/aks60/wingeo', '_blank');">Проект wingeo(технолог)</a></li>
+                        <li><a onClick="window.open('https://github.com/aks60/winweb', '_blank');">Проект winweb(vенеджер)</a></li>
                     </ul>
                 </li>  
                 <li>
