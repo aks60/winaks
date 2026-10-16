@@ -10,7 +10,10 @@
                 document.getElementById('m00').addEventListener('click', (e) => {
                     $('#body-jsp').load('view/contact.jsp');
                 });
-
+                document.getElementById('m05').addEventListener('click', (e) => {
+                    $('#body-jsp').load('view/vidio.jsp');
+                });
+                
                 //1.Клик по пунктам меню
                 $('.main-nav a').on('click', function (e) {
 
@@ -56,11 +59,13 @@
                     </ul>
                 </li>
                 <li>
-                    <a>Видио</a>
-                    <ul class="menu-level-2">
-                        <li><a>Видио-1</a></li>
-                        <li><a>Видио-2</a></li>  
-                    </ul>
+                    <a id="m05">Видио</a>
+<!--                    <ul class="menu-level-2">
+                        <li><a>Установка программы</a></li>
+                        <li><a>Состав программы</a></li>  
+                        <li><a>Начало работы</a></li>  
+                        <li><a>Заполнение базы данных</a></li>  
+                    </ul>-->
                 </li> 
                 <li>
                     <a>Установить демо</a>

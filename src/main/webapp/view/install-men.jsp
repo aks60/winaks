@@ -9,7 +9,7 @@
         <h1 style="text-align: center;">Установка программы SA-Okna (web версия).</h1>
         <p>Для установки web версии программы "Менеджер" обратитесь к поставщику продукта и мы установим программу на нашем web сервере.
                     <div class="container">
-            <img alt="Установка программы SA-OKNA" src="lib-img/okna-web5.jpg" />
+            <img alt="Установка программы SA-Okna" src="lib-img/okna-web5.jpg" />
         </div>
     </body>
 </html>

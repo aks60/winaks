@@ -26,8 +26,8 @@
             
         <p>Программа работает на всех операционных системах!</p
         <div class="container">
-            <img alt="Установка программы SA-OKNA" src="lib-img/okna-app8.jpg" />
-            <img alt="Установка программы SA-OKNA" src="lib-img/okna-app9.jpg" />
+            <img alt="Установка программы SA-Okna" src="lib-img/okna-app8.jpg" />
+            <img alt="Установка программы SA-Okna" src="lib-img/okna-app9.jpg" />
         </div>
         <p> &nbsp;Запустите программу кликнув по ярлыку на рабочем столе. Программа скачает последнюю версию с сервера и запустится.
             <br>Важные файлы программы.     

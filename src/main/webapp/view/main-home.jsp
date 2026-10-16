@@ -15,9 +15,12 @@
     </head>
     <body>
         <div style="display: flex; align-items: center; background-color: #4781C1">
-            <img alt="Производство" src="lib-img/production.png" />
+            <img src="lib-img/production.png" />
             <h1 style="text-indent: 20px;">Программа для расчёта окон и дверей</h1>
-        </div>         
+        </div>    
+<!--        <div style="display: flex; align-items: center; background-color: #F0F0F0">
+            <img src="lib-img/okna-menu.jpg" />
+        </div> -->
         <div class="container">           
             <div>
                 <p style="text-indent: 8px;">Полнофункциональное приложение для автоматизации бизнес-процессов оконного предприятия на всех этапах изготовления. 
