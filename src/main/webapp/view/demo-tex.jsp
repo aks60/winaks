@@ -15,17 +15,20 @@
     <body>
         <h1 style="text-align: center;">Установка демо версии программы SA-Okna.</h1>
         <p> Скачайте установщик программы кликнув по ссылке 
-            <a href="http://sa-okna.ru/deploy/00/WinGeo.msi">Установка демо программы SA-Okna</a>.
+            <a href="http://sa-okna.ru/deploy/00/WinGeoDemo.msi">Установка демо программы SA-Okna</a>.
             Запустите инсталлятор програмы и следуйте инструкциям установки. 
         <div  class="container">      
             <div>
-                <img alt="Установка программы SA-Okna" src="lib-img/okna-app5.jpg" /> 
+                <img alt="Установка программы SA-Okna" src="lib-img/okna-demo3.jpg" /> 
             </div>
             <div>
-                <img alt="Установка программы SA-Okna" src="lib-img/okna-app6.jpg" /> 
+                <img alt="Установка программы SA-Okna" src="lib-img/okna-demo4.jpg" /> 
             </div>
             <div>
-                <img alt="Установка программы SA-Okna" src="lib-img/okna-app7.jpg" /> 
+                <img alt="Установка программы SA-Okna" src="lib-img/okna-demo5.jpg" /> 
+            </div> 
+            <div>
+                <img alt="Установка программы SA-Okna" src="lib-img/okna-demo6.jpg" /> 
             </div> 
         </div>
         <p> Кликните по ярлыку на рабочем столе. В окне авторизации нажмите ОК.

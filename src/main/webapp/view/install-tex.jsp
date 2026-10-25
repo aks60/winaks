@@ -26,6 +26,7 @@
             <img alt="Установка программы SA-Okna" src="lib-img/okna-app5.jpg" />
             <img alt="Установка программы SA-Okna" src="lib-img/okna-app6.jpg" />
             <img alt="Установка программы SA-Okna" src="lib-img/okna-app7.jpg" />
+            <img alt="Установка программы SA-Okna" src="lib-img/okna-app8.jpg" />
         </div>
         <p> &nbsp;Запустите программу кликнув по ярлыку на рабочем столе. Программа скачает последнюю версию с сервера и запустится.
             <br>Важные файлы программы.     
