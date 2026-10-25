@@ -16,7 +16,7 @@
     <body>
         <div style="display: flex; align-items: center; background-color: #4781C1">
             <img src="lib-img/production.png" />
-            <h1 style="text-indent: 20px;">Программа для расчёта окон и дверей</h1>
+            <h1 style="text-indent: 20px;">Программа SA-Okna для расчёта окон и дверей</h1>
         </div>    
 <!--        <div style="display: flex; align-items: center; background-color: #F0F0F0">
             <img src="lib-img/okna-menu.jpg" />

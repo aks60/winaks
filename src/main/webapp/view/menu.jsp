@@ -68,7 +68,7 @@
                     </ul>-->
                 </li> 
                 <li>
-                    <a>Установить демо</a>
+                    <a>Демо</a>
                     <ul class="menu-level-2">
                         <li><a onClick="$('#body-jsp').load('./view/demo-tex.jsp')">Технолог</a></li> 
                         <li><a onClick="window.open('http://sa-okna.ru/webgeo/', '_blank');">Менеджер</a></li>                         
@@ -82,7 +82,7 @@
                     </ul>
                 </li>  
                 <li>
-                    <a>Скачать и установить</a>
+                    <a>Установить</a>
                     <ul class="menu-level-2">
                         <li><a onClick="$('#body-jsp').load('./view/install-tex.jsp')">Технолог</a></li>
                         <li><a onClick="$('#body-jsp').load('./view/install-men.jsp')">Менеджер</a></li>  
