@@ -22,7 +22,7 @@
                 <img src="lib-img/favicon.png">
                 <figcaption>Установка программы</figcaption>
             </figure>
-            <figure onClick="window.open('https://rutube.ru/video/7a33c2feb3cb04cb7715359ee566eb1e/, '_blank');">
+            <figure onClick="window.open('https://rutube.ru/video/7a33c2feb3cb04cb7715359ee566eb1e/', '_blank');">
                 <img src="lib-img/favicon.png">
                 <figcaption>Состав программы</figcaption>
             </figure>
@@ -30,7 +30,7 @@
                 <img src="lib-img/favicon.png">
                 <figcaption>Начало работы</figcaption>
             </figure>
-            <figure onClick="window.open('https://rutube.ru/video', '_blank');">
+            <figure onClick="window.open('https://rutube.ru/video/28723acc397325e428f8049ebf06fc8e/', '_blank');">
                 <img src="lib-img/favicon.png">
                 <figcaption>Заполнение базы данных</figcaption>
             </figure>
